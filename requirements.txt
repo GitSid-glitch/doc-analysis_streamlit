@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+pdfplumber
+python-docx
+camelot-py
+PyMuPDF
+pandas
+numpy
+matplotlib
+langchain-text-splitters
