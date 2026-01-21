@@ -1,6 +1,5 @@
 import pdfplumber
 import docx
-
 def extract_pdf_text(filepath):
     with pdfplumber.open(filepath) as pdf:
         text = ""
@@ -9,7 +8,6 @@ def extract_pdf_text(filepath):
             if page_text:
                 text += page_text
     return text
-
 def extract_docx_text(filepath):
     doc = docx.Document(filepath)
     text = "\n".join([p.text for p in doc.paragraphs if p.text.strip()])

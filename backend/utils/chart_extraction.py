@@ -1,6 +1,5 @@
 import fitz
 import os
-
 def extract_charts(filepath, output_dir):
     doc = fitz.open(filepath)
     charts = []
